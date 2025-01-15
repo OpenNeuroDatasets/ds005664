@@ -1,16 +1,23 @@
 {
-    "Name": "ts_dataset",
+    "Name": "Traveling Subjects Diffusion MRI Dataset",
     "BIDSVersion": "1.9.0",
     "DatasetType": "raw",
-    "License": "",
-    "Authors": [],
-    "Acknowledgements": "",
-    "HowToAcknowledge": "",
-    "Funding": [],
-    "EthicsApprovals": [],
+    "License": "CC0",
+    "Authors": [
+        "Janice Hau",
+        "Savannah Scarlett",
+        "Giovanna Arantes de Oliveira Campos"
+    ],
+    "Acknowledgements": "We would like to thank Ralph-Axel Müller, Ruth Carper, Annika Linke, and Inna Fishman from the Brain Development Imaging Lab for sharing their scan protocols used in this dataset, and Aaron Jacobsen for his technical suppport at the Center for Functional MRI, UC San Diego",
+    "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the dataset accession number and/or doi.",
+    "Funding": [
+        "National Institute of Mental Health R21MH133229"
+    ],
+    "EthicsApprovals": [
+        "San Diego State University Institutional Review Board"
+    ],
     "ReferencesAndLinks": [],
     "DatasetDOI": "",
-    "SourceDatasets": [],
     "GeneratedBy": [
         {
             "Name": "ezBIDS",
@@ -21,7 +28,10 @@
                 "Type": "docker",
                 "Tag": "brainlife/ezbids-handler"
             }
+        },
+        {
+            "Name": "Custom BIDS conversion scripts for GE research sequences",
+            "Description": "Several in-house scripts were developed to convert the GE research diffusion sequences (i.e., 4shell96dir, 2shell93dir, and 3shell45dir) to BIDS."
         }
-    ],
-    "HEDVersion": []
+    ]
 }
