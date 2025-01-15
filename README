@@ -1,0 +1,11 @@
+
+
+This dataset was converted to BIDS using ezBIDS (https://brainlife.io/ezbids) and custom in-house scripts.
+
+All anatomical scans have been defaced using ezBIDS.
+
+Notes:
+- For sub-ts001, sub-ts002, and sub-ts004, their ses-cfmri1 1shel61dir dwi was acquired with a variant spatial resolution.
+- For sub-ts002, their ses-cfmri1 3shell45dir dwi was acquired with a variant spatial resolution (2mm instead of 2.5mm).
+- The 3shell45dir dwi for sub-ts007 ses-cfmri1 is of poor quality and may not be usable.
+
