@@ -1,5 +1,5 @@
 {
-    "Name": "Traveling Subjects Diffusion MRI Dataset",
+    "Name": "SDSU-TS: Traveling Subjects Diffusion MRI Dataset",
     "BIDSVersion": "1.9.0",
     "DatasetType": "raw",
     "License": "CC0",
@@ -8,13 +8,13 @@
         "Savannah Scarlett",
         "Giovanna Arantes de Oliveira Campos"
     ],
-    "Acknowledgements": "Ralph-Axel Müller, Ruth Carper, Annika Linke, and Inna Fishman from the Brain Development Imaging Lab at San Diego State University for sharing their scan protocols used in this dataset, and Aaron Jacobsen for technical suppport at the Center for Functional MRI, UC San Diego",
-    "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the dataset accession number and/or doi.",
+    "Acknowledgements": "We would like to thank Ralph-Axel Müller, Ruth Carper, Annika Linke, and Inna Fishman from the Brain Development Imaging Lab at San Diego State University for sharing their scan protocols used in this dataset and the participants. Thanks also to the SDSU Imaging Center and Center for Functional MRI, UC San Diego for their technical support.",
+    "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the dataset accession number or doi.",
     "Funding": [
-        "National Institute of Mental Health R21MH133229"
+        "NIH R21MH133229", "NIH R01MH103494"
     ],
     "EthicsApprovals": [
-        "San Diego State University Institutional Review Board"
+        "San Diego State University Institutional Review Board (HS-2024-0194)"
     ],
     "ReferencesAndLinks": [],
     "DatasetDOI": "",
@@ -22,7 +22,7 @@
         {
             "Name": "ezBIDS",
             "Version": "1.0.0",
-            "Description": "ezBIDS is a web-based tool for converting neuroimaging datasets to BIDS, requiring neither coding nor knowledge of the BIDS specification",
+            "Description": "ezBIDS is a web-based tool for converting neuroimaging datasets to BIDS",
             "CodeURL": "https://brainlife.io/ezbids/",
             "Container": {
                 "Type": "docker",
@@ -31,7 +31,7 @@
         },
         {
             "Name": "Custom BIDS conversion scripts for GE research sequences",
-            "Description": "Several in-house scripts were developed to convert the GE research diffusion sequences (i.e., 4shell96dir, 2shell93dir, and 3shell45dir) to BIDS."
+            "Description": "In-house scripts were developed to convert the GE research diffusion sequences (i.e., 4shell96dir, 2shell93dir, and 3shell45dir) to BIDS."
         }
     ]
 }
