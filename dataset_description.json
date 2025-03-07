@@ -11,15 +11,12 @@
     "Acknowledgements": "We thank Ralph-Axel Müller, Ruth Carper, Annika Linke, and Inna Fishman from the Brain Development Imaging Lab at San Diego State University for sharing their scan protocols used in this dataset as well as the participants for their time and commitment to the study. Thanks also to the SDSU Imaging Center and Center for Functional MRI, UC San Diego for their technical support.",
     "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the dataset accession number or doi.",
     "Funding": [
-        "NIMH R21MH133229",
-        "NIMH R01MH103494"
+        "NIMH R21MH133229", "NIMH R01MH103494"
     ],
     "EthicsApprovals": [
         "San Diego State University Institutional Review Board (HS-2024-0194)"
     ],
-    "ReferencesAndLinks": [
-        "Hau, J., Scarlett, S., & Arantes de Oliveira Campos, G. (2025). A traveling subjects dataset for diffusion MRI harmonization benchmarking [Poster presentation]. International Society for Magnetic Resonance in Medicine Workshop on 40 Years of Diffusion: Past, Present & Future Perspectives, Kyoto, Japan."
-    ],
+    "ReferencesAndLinks": [ "Hau, J., Scarlett, S., & Arantes de Oliveira Campos, G. (2025). A traveling subjects dataset for diffusion MRI harmonization benchmarking [Poster presentation]. International Society for Magnetic Resonance in Medicine Workshop on 40 Years of Diffusion: Past, Present & Future Perspectives, Kyoto, Japan." ],
     "DatasetDOI": "doi:10.18112/openneuro.ds005664.v1.0.0",
     "GeneratedBy": [
         {
