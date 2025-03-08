@@ -2,7 +2,7 @@
 
 The **San Diego State University Traveling Subjects (SDSU-TS)** dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). 
 
-The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected across 2 sites: **SDSU Imaging Center (SDSU-MRI)** and **Center for Functional MRI at UC San Diego (CFMRI)**. The scan acquisition protocols reflect those used in SDSU autism MRI studies over the last 10-15 years at each site, including:
+The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected across 2 sites: **SDSU Imaging Center (SDSU-MRI)** and **Center for Functional MRI at UC San Diego (CFMRI)**. The scan acquisition protocols represent those used in SDSU autism MRI studies over the last 10-15 years at each site, including:
 
 - 5 diffusion MRI (3 at CFMRI, 2 at SDSU-MRI)
 - 3 T1-weighted (2 at CFMRI, 1 at SDSU-MRI)
@@ -49,7 +49,7 @@ The unprocessed MRI data are provided along with participant demographic data.
 
 The imaging data was converted to **BIDS** using **ezBIDS** ([https://brainlife.io/ezbids](https://brainlife.io/ezbids)) and custom scripts. All anatomical scans have been defaced using **ezBIDS**.
 
-## Data Quality Notes
+## Data Notes
 
 Please note the following:
 
