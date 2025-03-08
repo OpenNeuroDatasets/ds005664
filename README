@@ -35,7 +35,7 @@ The scan protocols acquired at each site are shown below:
 | T2w  | t2                       | n/a                             | 61  | 3.2 | 0.8x0.8x0.8    |
 
 **Note:** 
-- TE = Echo time (ms); TR = Repetition time (s).
+- TE = Echo time (ms); TR = Repetition time (s); Res = resolution.
 - Reversed phase-encoding fieldmaps were acquired for all protocols.
 - All data were acquired using a 32-channel head coil, except for the legacy sequences at CFMRI, which were acquired using an 8-channel head coil.
 
