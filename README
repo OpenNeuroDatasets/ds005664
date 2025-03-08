@@ -1,5 +1,27 @@
+SDSU-TS: Traveling Subjects Diffusion MRI Dataset
+
+The San Diego State University Traveling Subjects (SDSU-TS) dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). 
+
+The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected across 2 sites: SDSU Imaging Center (SDSU-MRI) and Center for Functional MRI at UC San Diego (CFMRI). The scan acquisition protocols reflect those used in SDSU autism MRI studies over the last 10-15 years at each site, including 5 diffusion MRI (3 at CFMRI, 2 at SDSU-MRI), 3 T1-weighted (2 at CFMRI, 1 at SDSU-MRI), and 2 T2-weighted (1 each at SDSU-MRI and CFMRI) protocols. We also acquired the diffusion MRI protocols matching the publicly available ABCD and Lifespan HCP studies.
+
+The scan protocols acquired at each site are shown below:
 
 
-This dataset was converted to BIDS using ezBIDS (https://brainlife.io/ezbids) and custom in-house scripts.
 
-All anatomical scans have been defaced using ezBIDS.
+*All data were acquired using a 32 channel head coil, except for the legacy sequences at CFMRI, which were acquired using an 8 channel head coil.
+
+All participants were scanned at least once at each site. Additionally, rescan data was acquired in 6 and 5 participants at the CFMRI and SDSU sites, respectively. The mean time between scan sessions was 7 days (range: 1-19 days).
+
+The imaging data was converted to BIDS using ezBIDS (https://brainlife.io/ezbids) and custom scripts. All anatomical scans have been defaced using ezBIDS.
+
+Please note the following:
+- The 1shell61dir data in the cfmri1 session of subjects ts001, ts002, and ts004 were acquired with a variant spatial resolution.
+- The 3shell45dir data in the cfmri1 session of subject ts002 was acquired with a variant spatial resolution (2mm instead fo 2.5mm slice thickness)
+- The quality of the 3shell45dir data in the cfmri1 session of subject ts007 is poor and may not be usable.
+
+
+Reference
+
+Hau, J., Scarlett, S., & Arantes de Oliveira Campos, G. (2025). A traveling subjects dataset for diffusion MRI harmonization benchmarking [Poster presentation]. International Society for Magnetic Resonance in Medicine Workshop on 40 Years of Diffusion: Past, Present & Future Perspectives, Kyoto, Japan.
+
+
