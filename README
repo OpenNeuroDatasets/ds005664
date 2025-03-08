@@ -1,14 +1,14 @@
 # San Diego State University Traveling Subjects (SDSU-TS) Dataset
 
-The **San Diego State University Traveling Subjects (SDSU-TS)** dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). 
+The San Diego State University Traveling Subjects (SDSU-TS) dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). 
 
-The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected across 2 sites: **SDSU Imaging Center (SDSU-MRI)** and **Center for Functional MRI at UC San Diego (CFMRI)**. The scan acquisition protocols represent those used in SDSU autism MRI studies over the last 10-15 years at each site, including:
+The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected across 2 sites: SDSU Imaging Center (SDSU-MRI) and Center for Functional MRI at UC San Diego (CFMRI). The scan acquisition protocols represent those used in SDSU autism MRI studies over the last 10-15 years at each site, including:
 
 - 5 diffusion MRI (3 at CFMRI, 2 at SDSU-MRI)
 - 3 T1-weighted (2 at CFMRI, 1 at SDSU-MRI)
 - 2 T2-weighted (1 each at SDSU-MRI and CFMRI)
 
-We also acquired the diffusion MRI protocols matching the publicly available **ABCD** and **Lifespan HCP** studies.
+We also acquired the diffusion MRI protocols matching the publicly available Adolescent Brain Cognitive Development (ABCD) and Lifespan Human Connectome Project (HCP) studies.
 
 ## Scan Protocols
 
@@ -40,8 +40,6 @@ The scan protocols acquired at each site are shown below:
 - TE = Echo time (ms); TR = Repetition time (s).
 - Reversed phase-encoding fieldmaps were acquired for all protocols.
 - All data were acquired using a 32-channel head coil, except for the legacy sequences at CFMRI, which were acquired using an 8-channel head coil.
-
-## Participant Information
 
 All participants were scanned at least once at each site. Additionally, rescan data were acquired in 6 participants at the CFMRI site and 5 participants at the SDSU site. The mean time between scan sessions was 7 days (range: 1-19 days).
 
