@@ -1,16 +1,18 @@
 # San Diego State University Traveling Subjects (SDSU-TS) Dataset
 
-The San Diego State University Traveling Subjects (SDSU-TS) dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected across 2 sites: SDSU Imaging Center (SDSU-MRI) and Center for Functional MRI at UC San Diego (CFMRI). The scan acquisition protocols represent those used at each site in SDSU autism MRI studies over the last 10-15 years, including:
+The San Diego State University Traveling Subjects (SDSU-TS) dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected at 2 imaging sites: SDSU Imaging Center (SDSU-MRI) and Center for Functional MRI, UC San Diego (CFMRI). Each participant was scanned at least once at both sites, with rescan data available for 5 participants at SDSU-MRI and 6 participants at CFMRI. The average interval between scan sessions within a participant was 7 days (range: 1-19 days).
+
+The scan protocols we collected reflect those used in SDSU autism MRI studies over the last 10-15 years and include the following: 
 
 - 5 diffusion-weighted (3 at CFMRI, 2 at SDSU-MRI)
 - 3 T1-weighted (2 at CFMRI, 1 at SDSU-MRI)
-- 2 T2-weighted (1 each at SDSU-MRI and CFMRI)
+- 2 T2-weighted (1 at each site)
 
-We also acquired diffusion-weighted MRI protocols matching the publicly available Adolescent Brain Cognitive Development (ABCD) and Lifespan Human Connectome Project (HCP) studies.
+Additionally, diffusion-weighted MRI protocols matching the publicly available Adolescent Brain Cognitive Development (ABCD) and Lifespan Human Connectome Project (HCP) studies were collected.
 
 ## Scan Protocols
 
-The scan protocols acquired at each site are shown below:
+The MRI acquisition protocols at each site were as follows:
 
 ### SDSU-MRI (GE Discovery MR750 3T)
 
@@ -39,19 +41,17 @@ The scan protocols acquired at each site are shown below:
 - Reversed phase-encoding fieldmaps were acquired for all protocols.
 - All data were acquired using a 32-channel head coil, except for the legacy sequences at CFMRI, which were acquired using an 8-channel head coil.
 
-All participants were scanned at least once at each site. Additionally, rescan data were acquired in 6 participants at the CFMRI site and 5 participants at the SDSU site. The mean time between scan sessions was 7 days (range: 1-19 days).
+The unprocessed MRI data are provided along with anonymized participant demographic data.
 
-The unprocessed MRI data are provided along with participant demographic data.
-
-The imaging data was converted to BIDS using ezBIDS ([https://brainlife.io/ezbids](https://brainlife.io/ezbids)) and custom scripts. All anatomical scans have been defaced using ezBIDS.
+The imaging data was converted to BIDS using ezBIDS ([https://brainlife.io/ezbids](https://brainlife.io/ezbids)) and custom scripts. All anatomical scans have been defaced using the Quickshear method in ezBIDS.
 
 ## Data Notes
 
 Please note the following:
 
-- The `1shell61dir` data in the `cfmri1` session of subjects `ts001`, `ts002`, and `ts004` were acquired with a variant spatial resolution.
+- The `1shell61dir` data in the `cfmri1` session of subjects `ts001`, `ts002`, and `ts004` were acquired with a variant spatial resolution (0.94x0.94mm instead of 1.875x1.875mm in-plane resolution).
 - The `3shell45dir` data in the `cfmri1` session of subject `ts002` was acquired with a variant spatial resolution (2mm instead of 2.5mm slice thickness).
-- The quality of the `3shell45dir` data in the `cfmri1` session of subject `ts007` is poor and may not be usable.
+- The `1shell61dir` data in the `cfmri1` session of subject `ts010` was acquired with a variant TE (0.0843 instead of 0.0818s).
 
 ## Reference
 
