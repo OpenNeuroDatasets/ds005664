@@ -43,7 +43,7 @@ The MRI protocols acquired at each site are shown below:
 
 The unprocessed MRI data are provided along with anonymized participant demographic data.
 
-The imaging data was converted to BIDS using ezBIDS ([https://brainlife.io/ezbids](https://brainlife.io/ezbids)) and custom scripts. All anatomical scans have been defaced using the Quickshear ([Quickshear] (https://github.com/nipy/quickshear)) method in ezBIDS.
+The imaging data was converted to BIDS using ezBIDS ([https://brainlife.io/ezbids](https://brainlife.io/ezbids)) and custom scripts. All anatomical scans have been defaced using the Quickshear ([https://github.com/nipy/quickshear] (Quickshear)) method in ezBIDS.
 
 ## Data Notes
 
