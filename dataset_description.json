@@ -1,5 +1,5 @@
 {
-    "Name": "San Diego State University Traveling Subjects (SDSU-TS) Diffusion MRI Dataset",
+    "Name": "San Diego State University Traveling Subjects Diffusion MRI (SDSU-TS) Dataset",
     "BIDSVersion": "1.9.0",
     "DatasetType": "raw",
     "License": "CC0",
