@@ -1,6 +1,6 @@
-# San Diego State University Traveling Subjects (SDSU-TS) Dataset
+# San Diego State University Traveling Subjects Diffusion MRI (SDSU-TS) Dataset
 
-The San Diego State University Traveling Subjects (SDSU-TS) dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected at 2 imaging sites: SDSU Imaging Center (SDSU-MRI) and Center for Functional MRI, UC San Diego (CFMRI). Each participant was scanned at least once at both sites, with rescan data available for 5 participants at SDSU-MRI and 6 participants at CFMRI. The average interval between scan sessions within a participant was 7 days (range: 1-19 days).
+The San Diego State University Traveling Subjects Diffusion MRI (SDSU-TS) dataset was designed to facilitate the harmonization of MRI data acquired across autism neuroimaging studies conducted at San Diego State University (SDSU). The dataset includes MRI scans from 9 healthy adult participants (aged 22-55 years) collected at 2 imaging sites: SDSU Imaging Center (SDSU-MRI) and Center for Functional MRI, UC San Diego (CFMRI). Each participant was scanned at least once at both sites, with rescan data available for 5 participants at SDSU-MRI and 6 participants at CFMRI. The average interval between scan sessions within a participant was 7 days (range: 1-19 days).
 
 The scan protocols we collected reflect those used in SDSU autism MRI studies over the last 10-15 years and include the following: 
 
