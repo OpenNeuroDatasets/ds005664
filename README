@@ -52,6 +52,7 @@ Please note the following:
 - The `1shell61dir` data in the `cfmri1` session of subjects `ts001`, `ts002`, and `ts004` were acquired with a variant spatial resolution (0.94x0.94mm instead of 1.875x1.875mm in-plane resolution).
 - The `3shell45dir` data in the `cfmri1` session of subject `ts002` was acquired with a variant spatial resolution (2mm instead of 2.5mm slice thickness).
 - The `1shell61dir` data in the `cfmri1` session of subject `ts010` was acquired with a variant TE (0.0843 instead of 0.0818s).
+- The `sdsu1` session `hcplifespan` protocol for subjects `ts002` and `ts003` was not acquired with reversed phase-encoding directions (needed for distortion correction) and are not included in the dataset but are available upon request.
 
 ## Reference
 
