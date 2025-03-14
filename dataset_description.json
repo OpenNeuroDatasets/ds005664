@@ -20,7 +20,7 @@
     "ReferencesAndLinks": [
         "Hau, J., Scarlett, S., & Arantes de Oliveira Campos, G. (2025). A traveling subjects dataset for diffusion MRI harmonization benchmarking [Poster presentation]. International Society for Magnetic Resonance in Medicine Workshop on 40 Years of Diffusion: Past, Present & Future Perspectives, Kyoto, Japan."
     ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005664.v1.1.1",
+    "DatasetDOI": "doi:10.18112/openneuro.ds005664.v1.1.2",
     "GeneratedBy": [
         {
             "Name": "ezBIDS",
